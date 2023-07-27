@@ -1,4 +1,4 @@
-import { goerli, mainnet, optimism, polygon, polygonMumbai } from "viem/chains";
+import { goerli, mainnet, optimism, polygon, polygonMumbai, sepolia } from "viem/chains";
 
 const getViemNetwork = (chainId: number) => {
     if (chainId === 1) return mainnet
